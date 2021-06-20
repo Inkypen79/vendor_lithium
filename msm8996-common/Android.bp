@@ -201,6 +201,14 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+	name: "manifest-qti-bt.xml",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest-qti-bt.xml",
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
 	name: "vendor.qti.hardware.dsp@1.0-service.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.dsp@1.0-service.xml",
