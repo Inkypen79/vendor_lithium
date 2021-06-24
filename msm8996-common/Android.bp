@@ -75,7 +75,7 @@ android_app_import {
 android_app_import {
 	name: "WfdService",
 	owner: "xiaomi",
-	apk: "proprietary/system/priv-app/WfdService/WfdService.apk",
+	apk: "proprietary/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -188,7 +188,7 @@ android_app_import {
 dex_import {
 	name: "WfdCommon",
 	owner: "xiaomi",
-	jars: ["proprietary/system/framework/WfdCommon.jar"],
+	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
 prebuilt_etc_xml {
